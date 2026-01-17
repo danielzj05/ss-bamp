@@ -1,0 +1,528 @@
+{
+    "baby_info": {
+        "name": "Baby Emma",
+        "age_months": 8,
+        "tracking_period_hours": 48
+    },
+    "entries": [
+        {
+            "timestamp": "2024-01-15T08:00:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 480,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "happy",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 180,
+                "duration_minutes": 12
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-15T09:30:00Z",
+            "event_type": "activity",
+            "emotion": {
+                "mood": "playful",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "activity": {
+                "type": "tummy_time",
+                "duration_minutes": 15
+            }
+        },
+        {
+            "timestamp": "2024-01-15T10:00:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 150,
+                "duration_minutes": 10
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T10:30:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 45,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T11:15:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 45,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "slightly_fussy",
+                "energy_level": "medium",
+                "fussiness": "medium"
+            },
+            "diaper": {
+                "type": "dirty",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-15T13:00:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 200,
+                "duration_minutes": 15
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T13:45:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 120,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T15:45:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 120,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "happy",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-15T17:00:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 180,
+                "duration_minutes": 12
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T18:30:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 30,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-15T19:00:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 30,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "slightly_fussy",
+                "energy_level": "medium",
+                "fussiness": "medium"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 150,
+                "duration_minutes": 10
+            }
+        },
+        {
+            "timestamp": "2024-01-15T20:00:00Z",
+            "event_type": "bedtime",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 600,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T02:00:00Z",
+            "event_type": "night_feeding",
+            "sleep": {
+                "status": "awake_briefly",
+                "previous_sleep_duration_minutes": 240,
+                "sleep_quality": "deep"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 120,
+                "duration_minutes": 8
+            },
+            "emotion": {
+                "mood": "sleepy",
+                "energy_level": "low",
+                "fussiness": "low"
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T02:15:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 360,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T08:15:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 360,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "happy",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 200,
+                "duration_minutes": 14
+            },
+            "diaper": {
+                "type": "dirty",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T09:45:00Z",
+            "event_type": "activity",
+            "emotion": {
+                "mood": "playful",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "activity": {
+                "type": "playing_with_toys",
+                "duration_minutes": 20
+            }
+        },
+        {
+            "timestamp": "2024-01-16T10:30:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 160,
+                "duration_minutes": 11
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T11:00:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 60,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T12:00:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 60,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "slightly_fussy",
+                "energy_level": "medium",
+                "fussiness": "medium"
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T13:30:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 190,
+                "duration_minutes": 13
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T14:15:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 90,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T15:45:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 90,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "happy",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "diaper": {
+                "type": "dirty",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T17:00:00Z",
+            "event_type": "feeding",
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 170,
+                "duration_minutes": 12
+            },
+            "emotion": {
+                "mood": "content",
+                "energy_level": "medium",
+                "fussiness": "low"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T18:00:00Z",
+            "event_type": "activity",
+            "emotion": {
+                "mood": "playful",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "activity": {
+                "type": "reading_time",
+                "duration_minutes": 15
+            }
+        },
+        {
+            "timestamp": "2024-01-16T18:45:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 25,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-16T19:10:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 25,
+                "sleep_quality": "light"
+            },
+            "emotion": {
+                "mood": "fussy",
+                "energy_level": "medium",
+                "fussiness": "high"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 140,
+                "duration_minutes": 9
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-16T20:00:00Z",
+            "event_type": "bedtime",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 540,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-17T01:30:00Z",
+            "event_type": "night_feeding",
+            "sleep": {
+                "status": "awake_briefly",
+                "previous_sleep_duration_minutes": 210,
+                "sleep_quality": "deep"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 110,
+                "duration_minutes": 7
+            },
+            "emotion": {
+                "mood": "sleepy",
+                "energy_level": "low",
+                "fussiness": "low"
+            },
+            "diaper": {
+                "type": "wet",
+                "changed": true
+            }
+        },
+        {
+            "timestamp": "2024-01-17T01:45:00Z",
+            "event_type": "sleep",
+            "sleep": {
+                "status": "sleeping",
+                "duration_minutes": 390,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "calm",
+                "energy_level": "low",
+                "fussiness": "none"
+            }
+        },
+        {
+            "timestamp": "2024-01-17T08:15:00Z",
+            "event_type": "wake",
+            "sleep": {
+                "status": "awake",
+                "previous_sleep_duration_minutes": 390,
+                "sleep_quality": "deep"
+            },
+            "emotion": {
+                "mood": "happy",
+                "energy_level": "high",
+                "fussiness": "low"
+            },
+            "feeding": {
+                "type": "bottle",
+                "amount_ml": 210,
+                "duration_minutes": 15
+            },
+            "diaper": {
+                "type": "dirty",
+                "changed": true
+            }
+        }
+    ],
+    "summary": {
+        "total_sleep_hours": 25.8,
+        "average_sleep_per_nap_minutes": 58,
+        "total_feedings": 15,
+        "total_ml_consumed": 2510,
+        "average_feeding_amount_ml": 167,
+        "diaper_changes": 15,
+        "emotion_distribution": {
+            "happy": 8,
+            "content": 7,
+            "playful": 3,
+            "calm": 10,
+            "sleepy": 2,
+            "slightly_fussy": 2,
+            "fussy": 1
+        },
+        "sleep_sessions": {
+            "night_sleeps": 3,
+            "day_naps": 8,
+            "longest_sleep_minutes": 600,
+            "shortest_sleep_minutes": 25
+        }
+    }
+}
