@@ -138,17 +138,20 @@ Please format your response in a clear, structured manner suitable for parents/c
         exit(1)
 
 def save_analysis_to_file(analysis_text, output_file):
-    """Save the analysis to a text file."""
+    """Save the analysis to a markdown file."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
-    formatted_output = f"""BABY TRACKING DATA ANALYSIS REPORT
-Generated: {timestamp}
-{'='*60}
+    formatted_output = f"""# Baby Tracking Data Analysis Report
+
+**Generated:** {timestamp}
+
+---
 
 {analysis_text}
 
-{'='*60}
-End of Report
+---
+
+*End of Report*
 """
     
     try:
@@ -162,7 +165,7 @@ End of Report
 def main():
     # File paths
     json_file = 'baby_tracking_data.json'
-    output_file = 'baby_analysis_report.txt'
+    output_file = 'baby_analysis_report.md'
     
     # Load baby tracking data
     print(f"Loading baby tracking data from '{json_file}'...")
